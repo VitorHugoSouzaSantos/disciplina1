@@ -1,0 +1,9 @@
+1. É verdade que todo arquivo CSS precisa estar dentro de outra pasta para que o 
+navegador possa renderizar os estilos das propriedades CSS?
+R: Não, é possível o arquivo CSS estar na pasta raiz, contando que o local do arquivo CSS esteja referenciado corretamente no HTML.
+
+2. É verdade que todo elemento HTML possui por padrão elementos filhos?
+R: Não.
+
+3. O que é o viewport?
+R: Área de visualização do dispositivo.

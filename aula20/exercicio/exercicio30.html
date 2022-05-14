@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 30</title>
+</head>
+<style>
+    * {
+        margin: 0 auto;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    fieldset {
+        padding: 10px;
+        margin-top: 20px;
+        width: 300px;
+    }
+
+    label,
+    input {
+        width: 100%;
+        padding: 2px;
+        margin-top: 5px;
+    }
+
+    label {
+        display: block;
+        height: auto;
+    }
+</style>
+
+<body>
+    <main>
+        <form name="contato" method="post">
+            <fieldset>
+                <legend>Exercício 30</legend>
+                <label for="email">Digite seu e-mail</label>
+                <input required type="email" name="email" id="email" value="">
+                <label for="senha">Senha</label>
+                <input required type="password" name="senha" id="senha" value="">
+                <input type="submit" name="enviarDados" value="ENVIAR">
+            </fieldset>
+        </form>
+    </main>
+</body>
+
+</html>
+
+<!-- 3. Crie um formulário com um com um campo do tipo e mail e do tipo senha, acrescente um botão de submissão. -->

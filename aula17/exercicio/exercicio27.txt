@@ -1,0 +1,9 @@
+1. Como podemos definir uma URL, dê um exemplo.
+Endereço eletrônico, domínio, utilizado para os usuários navegar e encontrar site.
+https//wwww.google.com.br
+
+2. O que é o HTTP?
+Protocolo de comunicação entre o navegador e o servidor web.
+
+3. O que são vendors em CSS?
+Prefixos que os fabricantes dispõem no css para testar novas funcionalidades.

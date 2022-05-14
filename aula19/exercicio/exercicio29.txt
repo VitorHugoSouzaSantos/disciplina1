@@ -1,0 +1,12 @@
+1. Qual a diferença da unidade de medida em e rem ?
+em procura a medida do elemento pai em quanto rem procura direto no elemento root.
+
+2. Como é criada uma variável no CSS? Dê um exemplo.
+Criada no root
+
+:root{
+    --cor-background-body: rgb(236, 239, 241)
+}
+body{
+    background-color: var(--cor-background-body);
+}

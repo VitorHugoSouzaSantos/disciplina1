@@ -1,0 +1,5 @@
+1. Como é possível descobrir qual é a fonte padrão de renderização do navegador?
+Utilizando a ferramenta Dev Tool que os navegadores disponibilizam.
+
+2. É verdade que quando alteramos um CSS diretamente no DEV TOOL automaticamente alteramos o arquivo CSS?
+Não, essa ferramenta é utilizada para alterar o código momentaneamente.
