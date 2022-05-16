@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <title>Checkpoint - 14/05/2022</title>
+</head>
+<script>
+    window.onload = function () {
+        const btnClicar = document.querySelector('div#btnClicar')
+        const testeDiv = document.querySelector('#testeDiv')
+        const btnSumir = document.querySelector('#btnSumir')
+        const btnRemovAdd = document.querySelector('#btnRemovAdd')
+
+        btnClicar.addEventListener('click', function () {
+
+            testeDiv.classList.add('corVermelho')
+        })
+        btnSumir.addEventListener('click', function () {
+            testeDiv.classList.add('sumirAdiv')
+        })
+        btnRemovAdd.addEventListener('click', function () {
+            testeDiv.classList.remove('corVermelho')
+            testeDiv.classList.remove('corVerde')
+        })
+
+    }
+</script>
+<style>
+    div {
+        border: 1px solid black;
+        width: 200px;
+        height: 200px;
+    }
+
+    .corVermelho {
+        background-color: red;
+    }
+
+    .sumirAdiv {
+        display: none;
+    }
+
+    .corVerde {
+        background-color: green;
+    }
+
+    #btnClicar {
+        width: 200px;
+        height: 60px;
+        background-color: blueviolet;
+        border-radius: 3px;
+        color: #fff;
+        border: none;
+    }
+
+    #btnClicar {
+        background-color: red;
+    }
+</style>
+
+<body>
+    <!-- <span class="material-symbols-outlined">autorenew</span>
+    <span class="material-symbols-outlined">file_upload</span>
+teste de icons -->
+    <div id="testeDiv">
+
+    </div>
+    <div>
+
+    </div>
+    <input type="button" id="btnClicar" value="teste">
+    <input type="button" id="btnSumir" value="sumir com a div">
+    <input type="button" id="btnRemovAdd" value="Remover e Add">
+</body>
+
+</html>

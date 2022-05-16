@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 1 - Bootcamp Java - 02/05/2022</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    div#janelaCliente, div#janelaProduto {
+        width: 400px;
+        height: 200px;
+        background-color: chocolate;
+        color: aliceblue;
+        font-size: 22px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        padding: 5px;
+    }
+    div#janelaProduto {
+        background-color: blueviolet;
+    }
+    .mostrar {
+        display: block;
+    }
+    .fechar {
+        display: none;
+    }
+    a {
+        text-decoration: none;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 22px;
+        color: black;
+    }
+    a:hover {
+        color: red;
+    }
+</style>
+<body>
+    <div id="janelaCliente">
+        Janela de Cliente
+    </div>
+    <div id="janelaProduto" class="mostrar">
+        Janela Produto
+    </div>
+    <a href="alinhamento.html">Alinhamento FlexBox</a>
+</body>
+</html>
